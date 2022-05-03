@@ -20,7 +20,7 @@ describe("Unit Tests for Spiderman class", ()=>{
     expect(andrewGarfield.actor).toBe("Andrew Garfield")
     expect(andrewGarfield.movies).toBe(2)
     expect(andrewGarfield.cine).toBe("sonny");
-  
+    expect(andrewGarfield.getInfo()).toBe("sonny");
 
   });
 })

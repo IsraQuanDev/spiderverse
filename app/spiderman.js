@@ -6,6 +6,13 @@ constructor (name,age,actor,movies,cine) {
     this.movies = movies
     this.cine = cine
 
-}}
+}
+ getInfo(){
+    
+    return `${this. cine}`;
+}
+
+
+}
 
 module.exports =Spiderman 
